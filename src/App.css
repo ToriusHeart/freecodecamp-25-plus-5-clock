@@ -1,0 +1,40 @@
+.clock {
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.setters {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #c65fa0 ;
+  border-radius: 5px;
+}
+
+.label {
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+span {
+  font-size: 24px;
+}
+
+.display {
+  text-align: center;
+  margin-top: 20px;
+}
